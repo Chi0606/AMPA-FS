@@ -1,0 +1,162 @@
+
+== Sonar  (208x60) ==
+  AMPA_FS    fit=0.0663 rf=0.8154 sel=24.1 nfe=1934 t=154s
+  AMPA_LSS   fit=0.0592 rf=0.8120 sel=19.2 nfe=1996 t=156s
+  AMPA_PLUSS fit=0.0519 rf=0.8071 sel=18.9 nfe=2039 t=159s
+  AMPA_PLUS  fit=0.0519 rf=0.8071 sel=18.9 nfe=2039 t=159s
+  BMPA       fit=0.0674 rf=0.8125 sel=24.2 nfe=1895 t=151s
+  BPSO       fit=0.0629 rf=0.8060 sel=25.4 nfe=3030 t=222s
+
+== Ionosphere  (351x34) ==
+  AMPA_FS    fit=0.0680 rf=0.9263 sel=11.2 nfe=1840 t=184s
+  AMPA_LSS   fit=0.0593 rf=0.9218 sel=7.9 nfe=1877 t=193s
+  AMPA_PLUSS fit=0.0569 rf=0.9218 sel=8.1 nfe=1870 t=188s
+  AMPA_PLUS  fit=0.0569 rf=0.9218 sel=8.1 nfe=1870 t=187s
+  BMPA       fit=0.0704 rf=0.9259 sel=10.6 nfe=1768 t=179s
+  BPSO       fit=0.0630 rf=0.9214 sel=10.0 nfe=3030 t=283s
+
+== Heart  (296x13) ==
+  AMPA_FS    fit=0.1211 rf=0.8013 sel=7.0 nfe=1477 t=141s
+  AMPA_LSS   fit=0.1190 rf=0.7923 sel=6.3 nfe=1474 t=140s
+  AMPA_PLUSS fit=0.1174 rf=0.7984 sel=7.1 nfe=1498 t=142s
+[resume] loaded /home/ubuntu/repos/A03/papers/ijmlc-ampa-fs/supplementary/source_code/results/proto_full.pkl: Sonar(6), Ionosphere(6), Heart(3)
+
+== Sonar  (208x60) ==
+  AMPA_FS    [skip, done]
+  AMPA_LSS   [skip, done]
+  AMPA_PLUSS [skip, done]
+  AMPA_PLUS  [skip, done]
+  BMPA       [skip, done]
+  BPSO       [skip, done]
+
+== Ionosphere  (351x34) ==
+  AMPA_FS    [skip, done]
+  AMPA_LSS   [skip, done]
+  AMPA_PLUSS [skip, done]
+  AMPA_PLUS  [skip, done]
+  BMPA       [skip, done]
+  BPSO       [skip, done]
+
+== Heart  (296x13) ==
+  AMPA_FS    [skip, done]
+  AMPA_LSS   [skip, done]
+  AMPA_PLUSS [skip, done]
+  AMPA_PLUS  fit=0.1174 rf=0.7984 sel=7.1 nfe=1498 t=144s
+  BMPA       fit=0.1207 rf=0.8004 sel=7.0 nfe=1446 t=139s
+  BPSO       fit=0.1137 rf=0.7951 sel=7.1 nfe=1659 t=156s
+
+== Parkinsons  (195x22) ==
+  AMPA_FS    fit=0.0199 rf=0.9088 sel=7.1 nfe=1764 t=139s
+  AMPA_LSS   fit=0.0175 rf=0.9099 sel=6.6 nfe=1811 t=142s
+  AMPA_PLUSS fit=0.0175 rf=0.9163 sel=6.4 nfe=1780 t=141s
+  AMPA_PLUS  fit=0.0175 rf=0.9163 sel=6.4 nfe=1780 t=141s
+  BMPA       fit=0.0197 rf=0.9091 sel=7.6 nfe=1720 t=138s
+  BPSO       fit=0.0162 rf=0.9109 sel=6.1 nfe=3002 t=217s
+
+== Vehicle  (846x18) ==
+  AMPA_FS    fit=0.2397 rf=0.7418 sel=9.4 nfe=1707 t=310s
+  AMPA_LSS   fit=0.2332 rf=0.7408 sel=9.0 nfe=1738 t=314s
+  AMPA_PLUSS fit=0.2353 rf=0.7412 sel=9.1 nfe=1746 t=319s
+  AMPA_PLUS  fit=0.2353 rf=0.7412 sel=9.1 nfe=1746 t=318s
+  BMPA       fit=0.2383 rf=0.7412 sel=9.0 nfe=1666 t=307s
+  BPSO       fit=0.2293 rf=0.7387 sel=9.4 nfe=2781 t=486s
+
+== Colon  (62x200) ==
+  AMPA_FS    fit=0.0789 rf=0.8771 sel=48.7 nfe=2098 t=122s
+  AMPA_LSS   fit=0.0280 rf=0.8298 sel=4.6 nfe=2260 t=131s
+  AMPA_PLUSS fit=0.0367 rf=0.8275 sel=4.4 nfe=2263 t=131s
+  AMPA_PLUS  fit=0.0367 rf=0.8275 sel=4.4 nfe=2263 t=130s
+  BMPA       fit=0.0758 rf=0.8764 sel=57.6 nfe=2080 t=122s
+  BPSO       fit=0.0761 rf=0.8750 sel=63.4 nfe=3030 t=169s
+
+=== Paired Wilcoxon vs AMPA_FS (same seeds) ===
+  Sonar        AMPA_LSS   fitness delta=-0.0071 p=0.0577 
+  Sonar        AMPA_LSS   rf_acc  delta=-0.0034 p=1.0000 
+  Sonar        AMPA_LSS   n_sel   delta=-4.9000 p=0.0001*
+  Sonar        AMPA_PLUSS fitness delta=-0.0145 p=0.0004*
+  Sonar        AMPA_PLUSS rf_acc  delta=-0.0083 p=0.2286 
+  Sonar        AMPA_PLUSS n_sel   delta=-5.1667 p=0.0001*
+  Sonar        AMPA_PLUS  fitness delta=-0.0145 p=0.0004*
+  Sonar        AMPA_PLUS  rf_acc  delta=-0.0083 p=0.2286 
+  Sonar        AMPA_PLUS  n_sel   delta=-5.1667 p=0.0001*
+  Sonar        BMPA       fitness delta=+0.0011 p=0.8554 
+  Sonar        BMPA       rf_acc  delta=-0.0029 p=0.7000 
+  Sonar        BMPA       n_sel   delta=+0.1000 p=0.7502 
+  Sonar        BPSO       fitness delta=-0.0034 p=0.3492 
+  Sonar        BPSO       rf_acc  delta=-0.0094 p=0.1706 
+  Sonar        BPSO       n_sel   delta=+1.3000 p=0.0733 
+  Ionosphere   AMPA_LSS   fitness delta=-0.0087 p=0.0054*
+  Ionosphere   AMPA_LSS   rf_acc  delta=-0.0046 p=0.1385 
+  Ionosphere   AMPA_LSS   n_sel   delta=-3.2667 p=0.0004*
+  Ionosphere   AMPA_PLUSS fitness delta=-0.0112 p=0.0002*
+  Ionosphere   AMPA_PLUSS rf_acc  delta=-0.0045 p=0.1004 
+  Ionosphere   AMPA_PLUSS n_sel   delta=-3.1000 p=0.0003*
+  Ionosphere   AMPA_PLUS  fitness delta=-0.0112 p=0.0002*
+  Ionosphere   AMPA_PLUS  rf_acc  delta=-0.0045 p=0.1004 
+  Ionosphere   AMPA_PLUS  n_sel   delta=-3.1000 p=0.0003*
+  Ionosphere   BMPA       fitness delta=+0.0024 p=0.9677 
+  Ionosphere   BMPA       rf_acc  delta=-0.0004 p=0.7131 
+  Ionosphere   BMPA       n_sel   delta=-0.5667 p=0.6041 
+  Ionosphere   BPSO       fitness delta=-0.0050 p=0.1004 
+  Ionosphere   BPSO       rf_acc  delta=-0.0049 p=0.1403 
+  Ionosphere   BPSO       n_sel   delta=-1.2000 p=0.1848 
+  Heart        AMPA_LSS   fitness delta=-0.0020 p=0.3185 
+  Heart        AMPA_LSS   rf_acc  delta=-0.0090 p=0.2364 
+  Heart        AMPA_LSS   n_sel   delta=-0.7000 p=0.0609 
+  Heart        AMPA_PLUSS fitness delta=-0.0036 p=0.0801 
+  Heart        AMPA_PLUSS rf_acc  delta=-0.0029 p=0.8022 
+  Heart        AMPA_PLUSS n_sel   delta=+0.0667 p=0.8380 
+  Heart        AMPA_PLUS  fitness delta=-0.0036 p=0.0801 
+  Heart        AMPA_PLUS  rf_acc  delta=-0.0029 p=0.8022 
+  Heart        AMPA_PLUS  n_sel   delta=+0.0667 p=0.8380 
+  Heart        BMPA       fitness delta=-0.0003 p=0.9031 
+  Heart        BMPA       rf_acc  delta=-0.0009 p=0.9143 
+  Heart        BMPA       n_sel   delta=+0.0333 p=0.9088 
+  Heart        BPSO       fitness delta=-0.0074 p=0.0012*
+  Heart        BPSO       rf_acc  delta=-0.0062 p=0.5736 
+  Heart        BPSO       n_sel   delta=+0.0667 p=0.6572 
+  Parkinsons   AMPA_LSS   fitness delta=-0.0023 p=0.1537 
+  Parkinsons   AMPA_LSS   rf_acc  delta=+0.0011 p=0.8712 
+  Parkinsons   AMPA_LSS   n_sel   delta=-0.4333 p=0.3037 
+  Parkinsons   AMPA_PLUSS fitness delta=-0.0024 p=0.0700 
+  Parkinsons   AMPA_PLUSS rf_acc  delta=+0.0074 p=0.0546 
+  Parkinsons   AMPA_PLUSS n_sel   delta=-0.6667 p=0.0227*
+  Parkinsons   AMPA_PLUS  fitness delta=-0.0024 p=0.0700 
+  Parkinsons   AMPA_PLUS  rf_acc  delta=+0.0074 p=0.0546 
+  Parkinsons   AMPA_PLUS  n_sel   delta=-0.6667 p=0.0227*
+  Parkinsons   BMPA       fitness delta=-0.0002 p=0.4840 
+  Parkinsons   BMPA       rf_acc  delta=+0.0002 p=0.9546 
+  Parkinsons   BMPA       n_sel   delta=+0.5667 p=0.2606 
+  Parkinsons   BPSO       fitness delta=-0.0037 p=0.0136*
+  Parkinsons   BPSO       rf_acc  delta=+0.0021 p=0.4386 
+  Parkinsons   BPSO       n_sel   delta=-1.0000 p=0.0051*
+  Vehicle      AMPA_LSS   fitness delta=-0.0066 p=0.0006*
+  Vehicle      AMPA_LSS   rf_acc  delta=-0.0010 p=0.7953 
+  Vehicle      AMPA_LSS   n_sel   delta=-0.4000 p=0.2716 
+  Vehicle      AMPA_PLUSS fitness delta=-0.0044 p=0.0107*
+  Vehicle      AMPA_PLUSS rf_acc  delta=-0.0005 p=0.9914 
+  Vehicle      AMPA_PLUSS n_sel   delta=-0.3000 p=0.3616 
+  Vehicle      AMPA_PLUS  fitness delta=-0.0044 p=0.0107*
+  Vehicle      AMPA_PLUS  rf_acc  delta=-0.0005 p=0.9914 
+  Vehicle      AMPA_PLUS  n_sel   delta=-0.3000 p=0.3616 
+  Vehicle      BMPA       fitness delta=-0.0014 p=0.5158 
+  Vehicle      BMPA       rf_acc  delta=-0.0005 p=0.6850 
+  Vehicle      BMPA       n_sel   delta=-0.4000 p=0.4367 
+  Vehicle      BPSO       fitness delta=-0.0104 p=0.0001*
+  Vehicle      BPSO       rf_acc  delta=-0.0031 p=0.3581 
+  Vehicle      BPSO       n_sel   delta=-0.0333 p=0.9349 
+  Colon        AMPA_LSS   fitness delta=-0.0508 p=0.0000*
+  Colon        AMPA_LSS   rf_acc  delta=-0.0472 p=0.0000*
+  Colon        AMPA_LSS   n_sel   delta=-44.1667 p=0.0000*
+  Colon        AMPA_PLUSS fitness delta=-0.0422 p=0.0000*
+  Colon        AMPA_PLUSS rf_acc  delta=-0.0495 p=0.0000*
+  Colon        AMPA_PLUSS n_sel   delta=-44.3667 p=0.0000*
+  Colon        AMPA_PLUS  fitness delta=-0.0422 p=0.0000*
+  Colon        AMPA_PLUS  rf_acc  delta=-0.0495 p=0.0000*
+  Colon        AMPA_PLUS  n_sel   delta=-44.3667 p=0.0000*
+  Colon        BMPA       fitness delta=-0.0030 p=0.0072*
+  Colon        BMPA       rf_acc  delta=-0.0006 p=0.8371 
+  Colon        BMPA       n_sel   delta=+8.9000 p=0.0003*
+  Colon        BPSO       fitness delta=-0.0027 p=0.0002*
+  Colon        BPSO       rf_acc  delta=-0.0021 p=0.3480 
+  Colon        BPSO       n_sel   delta=+14.6667 p=0.0000*

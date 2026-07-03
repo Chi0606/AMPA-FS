@@ -1,0 +1,50 @@
+
+== Sonar  (208x60) ==
+  AMPA_RFL   fit=0.0753 rf=0.8264 sel=27.4 nfe=2128 t=1326s
+  BMPA_RFL   fit=0.0785 rf=0.8285 sel=28.1 nfe=2124 t=1317s
+
+== Ionosphere  (351x34) ==
+  AMPA_RFL   fit=0.0267 rf=0.9343 sel=13.5 nfe=1909 t=1334s
+  BMPA_RFL   fit=0.0289 rf=0.9324 sel=13.6 nfe=1881 t=1291s
+
+== Heart  (296x13) ==
+  AMPA_RFL   fit=0.1243 rf=0.8067 sel=7.8 nfe=1492 t=822s
+  BMPA_RFL   fit=0.1248 rf=0.8102 sel=7.5 nfe=1430 t=787s
+
+== Parkinsons  (195x22) ==
+  AMPA_RFL   fit=0.0337 rf=0.9083 sel=7.8 nfe=1808 t=990s
+  BMPA_RFL   fit=0.0332 rf=0.9110 sel=7.9 nfe=1759 t=966s
+
+== Vehicle  (846x18) ==
+  AMPA_RFL   fit=0.2066 rf=0.7484 sel=10.6 nfe=1746 t=1456s
+  BMPA_RFL   fit=0.2069 rf=0.7461 sel=10.9 nfe=1680 t=1394s
+
+== Colon  (62x200) ==
+  AMPA_RFL   fit=0.0489 rf=0.8702 sel=74.4 nfe=2347 t=1181s
+  BMPA_RFL   fit=0.0457 rf=0.8763 sel=79.8 nfe=2407 t=1217s
+
+=== Paired Wilcoxon: RF-lite evaluator vs KNN evaluator (same seeds) ===
+  Sonar        AMPA_RFL  vs AMPA_FS  rf_acc  delta=+0.0110 p=0.0389*
+  Sonar        AMPA_RFL  vs AMPA_FS  n_sel   delta=+3.3667 p=0.0038*
+  Sonar        BMPA_RFL  vs BMPA     rf_acc  delta=+0.0160 p=0.0028*
+  Sonar        BMPA_RFL  vs BMPA     n_sel   delta=+3.9333 p=0.0006*
+  Ionosphere   AMPA_RFL  vs AMPA_FS  rf_acc  delta=+0.0080 p=0.0058*
+  Ionosphere   AMPA_RFL  vs AMPA_FS  n_sel   delta=+2.3667 p=0.0075*
+  Ionosphere   BMPA_RFL  vs BMPA     rf_acc  delta=+0.0065 p=0.0175*
+  Ionosphere   BMPA_RFL  vs BMPA     n_sel   delta=+3.0333 p=0.0012*
+  Heart        AMPA_RFL  vs AMPA_FS  rf_acc  delta=+0.0054 p=0.4400 
+  Heart        AMPA_RFL  vs AMPA_FS  n_sel   delta=+0.7667 p=0.1281 
+  Heart        BMPA_RFL  vs BMPA     rf_acc  delta=+0.0098 p=0.0327*
+  Heart        BMPA_RFL  vs BMPA     n_sel   delta=+0.4333 p=0.2991 
+  Parkinsons   AMPA_RFL  vs AMPA_FS  rf_acc  delta=-0.0006 p=0.8120 
+  Parkinsons   AMPA_RFL  vs AMPA_FS  n_sel   delta=+0.7000 p=0.2980 
+  Parkinsons   BMPA_RFL  vs BMPA     rf_acc  delta=+0.0019 p=0.7071 
+  Parkinsons   BMPA_RFL  vs BMPA     n_sel   delta=+0.2667 p=0.5508 
+  Vehicle      AMPA_RFL  vs AMPA_FS  rf_acc  delta=+0.0067 p=0.0197*
+  Vehicle      AMPA_RFL  vs AMPA_FS  n_sel   delta=+1.2000 p=0.0164*
+  Vehicle      BMPA_RFL  vs BMPA     rf_acc  delta=+0.0049 p=0.2367 
+  Vehicle      BMPA_RFL  vs BMPA     n_sel   delta=+1.9333 p=0.0001*
+  Colon        AMPA_RFL  vs AMPA_FS  rf_acc  delta=-0.0068 p=0.1004 
+  Colon        AMPA_RFL  vs AMPA_FS  n_sel   delta=+25.6333 p=0.0000*
+  Colon        BMPA_RFL  vs BMPA     rf_acc  delta=-0.0002 p=0.9808 
+  Colon        BMPA_RFL  vs BMPA     n_sel   delta=+22.2000 p=0.0000*
